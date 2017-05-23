@@ -9,9 +9,12 @@
       ul
         - @article.errors.full_messages.each do |msg|
           li = msg
+
+  p
+    = f.input :title
+
+  p
+    = f.input :text, as: :text
  
-  = f.input :title
-  
-  = f.text_area :text
- 
-  = f.button :submit
+  p
+    = f.button :submit

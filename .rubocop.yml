@@ -1,0 +1,13 @@
+Style/StringLiterals:  
+  EnforcedStyle: double_quotes
+  Enabled: true
+
+Documentation:
+  Enabled: false
+
+AllCops:
+  UseCache: false
+
+Metrics/LineLength:
+  Enabled: false
+  Max: 80
